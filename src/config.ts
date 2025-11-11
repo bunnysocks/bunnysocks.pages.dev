@@ -16,10 +16,10 @@ export const SITE: Site = {
   title: 'Litos',
   description:
     'Litos is a modern blogging theme built on Astro.js, designed for developers. It supports multiple post layouts, photo displays, project displays, and more, providing an elegant user experience and powerful customization capabilities.',
-  website: 'https://litos.vercel.app/',
+  website: 'https://bunnysocks.pages.dev/',
   lang: 'en',
   base: '/',
-  author: 'Dnzzk2',
+  author: '@bunnysocks',
   ogImage: '/og-image.webp',
 }
 
@@ -65,19 +65,19 @@ export const FOOTER_LINKS: Link[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'github',
-    url: 'https://github.com/yourname',
+    url: 'https://github.com/bunnysocks',
     icon: 'icon-[ri--github-fill]',
     count: 11,
   },
   {
     name: 'twitter',
-    url: 'https://x.com/yourname',
+    url: 'https://x.com/hemannnnz',
     icon: 'icon-[ri--twitter-x-fill]',
   },
   {
-    name: 'bilibili',
-    url: 'https://space.bilibili.com/yourSpaceId',
-    icon: 'icon-[ri--bilibili-fill]',
+    name: 'linkedin',
+    url: 'https://www.linkedin.com/in/hemansakkthivel',
+    icon: 'icon-[ri--linkedin-fill]',
   },
 ]
 
@@ -102,12 +102,12 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
           icon: 'icon-[mdi--language-javascript]',
         },
         {
-          name: 'CSS',
-          icon: 'icon-[mdi--language-css3]',
+          name: 'Node.js',
+          icon: 'icon-[mdi--nodejs]',
         },
         {
-          name: 'HTML',
-          icon: 'icon-[mdi--language-html5]',
+          name: 'React',
+          icon: 'icon-[mdi--react]',
         },
         {
           name: 'TypeScript',
@@ -119,28 +119,20 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
       direction: 'right',
       skills: [
         {
-          name: 'Astro',
-          icon: 'icon-[lineicons--astro]',
+          name: 'Java',
+          icon: 'icon-[mdi--language-java]',
         },
         {
-          name: 'Node.js',
-          icon: 'icon-[mdi--nodejs]',
+          name: 'Spring Boot',
+          icon: 'icon-[simple-icons--springboot]',
         },
         {
-          name: 'React',
-          icon: 'icon-[mdi--react]',
+          name: 'AWS',
+          icon: 'icon-[mdi--aws]',
         },
         {
-          name: 'Next.js',
-          icon: 'icon-[devicon--nextjs]',
-        },
-        {
-          name: 'Tailwind CSS',
-          icon: 'icon-[mdi--tailwind]',
-        },
-        {
-          name: 'Iconify',
-          icon: 'icon-[line-md--iconify2-static]',
+          name: 'Docker',
+          icon: 'icon-[mdi--docker]',
         },
       ],
     },
@@ -148,25 +140,26 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
       direction: 'left',
       skills: [
         {
-          name: 'Ubuntu',
-          icon: 'icon-[mdi--ubuntu]',
+          name: 'Swift',
+          icon: 'icon-[mdi--language-swift]',
+        },
+        {
+          name: 'Linux',
+          icon: 'icon-[simple-icons--linux]',
         },
         {
           name: 'Git',
           icon: 'icon-[mdi--git]',
         },
         {
-          name: 'MongoDB',
-          icon: 'icon-[lineicons--mongodb]',
-        },
-        {
-          name: 'Vercel',
-          icon: 'icon-[lineicons--vercel]',
-        },
-      ],
+          name: 'Rust',
+          icon: 'icon-[mdi--language-rust]',
+        }
+      ]
     },
   ],
 }
+
 
 /**
  * GitHub配置 / GitHub configuration
@@ -178,7 +171,7 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
 
 export const GITHUB_CONFIG: GithubConfig = {
   ENABLED: true,
-  GITHUB_USERNAME: 'Dnzzk2',
+  GITHUB_USERNAME: 'bunnysocks',
   TOOLTIP_ENABLED: true,
 }
 

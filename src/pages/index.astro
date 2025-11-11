@@ -27,30 +27,29 @@ if (hasPinnedPosts) {
   <div class="relative z-[1]">
     <div class="py-8 pb-10 px-6 sm:px-8">
       <h1 class="flex flex-col gap-2">
-        <span class="text-4xl sm:text-5xl tracking-tight"> Litos </span>
-        <span class="text-muted-foreground font-light text-xl sm:text-2xl block tracking-wide text-balance">
-          A Simple & Modern Blog Theme for Astro
-        </span>
+        <span class="text-4xl sm:text-5xl tracking-tight"> hi 👋🏻, I'm Heman </span>
+        <!-- <span class="text-muted-foreground font-light text-xl sm:text-2xl block tracking-wide text-balance">
+         Aspiring Software Engineer, 
+        </span> -->
       </h1>
       <div class="pro text-muted-foreground text-pretty">
         <p>
-          Litos is a simple and modern Astro blog theme, focusing on content display and reading experience. What's more, it's not just a
-          blog, but also a place to showcase your personal skills, projects, and daily life.
+          Currently a senior undergrad student pursuing Electronics and Computer Engineering. Mostly, I'd be working on Backend, CLI's and iOS development and learning about compilers, computer systems and embedded stuffs. I'm always eager to learn new stuffs which piques my interest.
         </p>
-        <p>
+        <!-- <p>
           Tailwind CSS is used to achieve an elegant responsive design, and React components are integrated to provide a smooth interactive
           experience. It supports light and dark theme switching, is responsive, has a clean style, and offers a variety of configurable
           article display layouts.
-        </p>
-        <p>
+        </p> -->
+        <!-- <p>
           This theme is inspired by <a href="https://github.com/needim" target="_blank" rel="nofollow noreferrer"> @needim</a> and redesigned
           by <a href="https://github.com/Dnzzk2" target="_blank" rel="nofollow noreferrer"> @Dnzzk2</a> based on Astro.
-        </p>
+        </p> -->
       </div>
       <div class="mt-6 flex gap-6">
         {
           SOCIAL_LINKS.map((item) => {
-            return <SocialLink href={item.url} icon={item.icon} aria-label={`Link of ${item.name}`} count={item.count} label="followers" />
+            return <SocialLink href={item.url} icon={item.icon} aria-label={`Link of ${item.name}`} />
           })
         }
       </div>
