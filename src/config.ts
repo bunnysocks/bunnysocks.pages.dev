@@ -14,13 +14,13 @@ import type {
 
 //--- Readme Page Config ---
 export const SITE: Site = {
-  title: 'Litos',
+  title: 'Heman sakkthivel',
   description:
     'Litos is a modern blogging theme built on Astro.js, designed for developers. It supports multiple post layouts, photo displays, project displays, and more, providing an elegant user experience and powerful customization capabilities.',
-  website: 'https://litos.vercel.app/',
+  website: 'https://bunnysocks.pages.dev',
   lang: 'en',
   base: '/',
-  author: 'Dnzzk2',
+  author: 'bunnysocks',
   ogImage: '/og-image.webp',
 }
 
@@ -66,19 +66,18 @@ export const FOOTER_LINKS: Link[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'github',
-    url: 'https://github.com/yourname',
+    url: 'https://github.com/bunnysocks',
     icon: 'icon-[ri--github-fill]',
-    count: 11,
   },
   {
     name: 'twitter',
-    url: 'https://x.com/yourname',
+    url: 'https://x.com/hemanzzz',
     icon: 'icon-[ri--twitter-x-fill]',
   },
   {
-    name: 'bilibili',
-    url: 'https://space.bilibili.com/yourSpaceId',
-    icon: 'icon-[ri--bilibili-fill]',
+    name: 'linkedin',
+    url: 'https://linkedin.com/in/hemansakkthivel/',
+    icon: 'icon-[ri--linkedin-fill]',
   },
 ]
 
@@ -95,75 +94,40 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
   SKILLS_ENABLED: true,
   SKILLS_DATA: [
+    // Row 1
     {
       direction: 'left',
       skills: [
-        {
-          name: 'JavaScript',
-          icon: 'icon-[mdi--language-javascript]',
-        },
-        {
-          name: 'CSS',
-          icon: 'icon-[mdi--language-css3]',
-        },
-        {
-          name: 'HTML',
-          icon: 'icon-[mdi--language-html5]',
-        },
-        {
-          name: 'TypeScript',
-          icon: 'icon-[mdi--language-typescript]',
-        },
+        { name: 'JavaScript', icon: 'icon-[mdi--language-javascript]' },
+        { name: 'TypeScript', icon: 'icon-[mdi--language-typescript]' },
+        { name: 'ReactJS', icon: 'icon-[mdi--react]' },
+        { name: 'NodeJS', icon: 'icon-[mdi--nodejs]' },
+        { name: 'TailwindCSS', icon: 'icon-[mdi--tailwind]' },
       ],
     },
+
+    // Row 2
     {
       direction: 'right',
       skills: [
-        {
-          name: 'Astro',
-          icon: 'icon-[lineicons--astro]',
-        },
-        {
-          name: 'Node.js',
-          icon: 'icon-[mdi--nodejs]',
-        },
-        {
-          name: 'React',
-          icon: 'icon-[mdi--react]',
-        },
-        {
-          name: 'Next.js',
-          icon: 'icon-[devicon--nextjs]',
-        },
-        {
-          name: 'Tailwind CSS',
-          icon: 'icon-[mdi--tailwind]',
-        },
-        {
-          name: 'Iconify',
-          icon: 'icon-[line-md--iconify2-static]',
-        },
+        { name: 'Spring Boot', icon: 'icon-[mdi--language-java]' },
+        { name: 'Java', icon: 'icon-[mdi--language-java]' },
+        { name: 'JUnit', icon: 'icon-[mdi--test-tube]' },
+        { name: 'MongoDB', icon: 'icon-[lineicons--mongodb]' },
+        { name: 'Docker', icon: 'icon-[mdi--docker]' },
+        { name: 'Kubernetes', icon: 'icon-[mdi--kubernetes]' },
       ],
     },
+
+    // Row 3
     {
       direction: 'left',
       skills: [
-        {
-          name: 'Ubuntu',
-          icon: 'icon-[mdi--ubuntu]',
-        },
-        {
-          name: 'Git',
-          icon: 'icon-[mdi--git]',
-        },
-        {
-          name: 'MongoDB',
-          icon: 'icon-[lineicons--mongodb]',
-        },
-        {
-          name: 'Vercel',
-          icon: 'icon-[lineicons--vercel]',
-        },
+        { name: 'Linux', icon: 'icon-[mdi--penguin]' },
+        { name: 'Git', icon: 'icon-[mdi--git]' },
+        { name: 'Swift', icon: 'icon-[mdi--language-swift]' },
+        { name: 'Bash', icon: 'icon-[mdi--console]' },
+        { name: 'Python', icon: 'icon-[mdi--language-python]' },
       ],
     },
   ],
@@ -179,7 +143,7 @@ export const SKILLSSHOWCASE_CONFIG: SkillsShowcaseConfig = {
 
 export const GITHUB_CONFIG: GithubConfig = {
   ENABLED: true,
-  GITHUB_USERNAME: 'Dnzzk2',
+  GITHUB_USERNAME: 'bunnysocks',
   TOOLTIP_ENABLED: true,
 }
 
@@ -188,7 +152,7 @@ export const POSTS_CONFIG: PostConfig = {
   title: 'Posts',
   description: 'Posts by Dnzzk2',
   introduce: 'Here, I will share the usage instructions for this theme to help you quickly use it.',
-  author: 'Dnzzk2',
+  author: 'bunnysocks',
   homePageConfig: {
     size: 5,
     type: 'compact',
@@ -222,8 +186,8 @@ export const COMMENT_CONFIG: CommentConfig = {
     clientID: import.meta.env.PUBLIC_GITHUB_CLIENT_ID,
     clientSecret: import.meta.env.PUBLIC_GITHUB_CLIENT_SECRET,
     repo: 'gitalk-comment',
-    owner: 'Dnzzk2',
-    admin: ['Dnzzk2'],
+    owner: 'bunnysocks',
+    admin: ['bunnysocks'],
     language: 'en-US',
     perPage: 5,
     pagerDirection: 'last',
